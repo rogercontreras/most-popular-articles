@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DBB0BB5C2D02DD3D00E3A6C9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DBB0BB5B2D02DD3D00E3A6C9 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DB5C393D2D00FEB500F8F001 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		DB5C392A2D00FEB300F8F001 /* Most Popular Articles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Most Popular Articles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5C393C2D00FEB500F8F001 /* Most Popular ArticlesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Most Popular ArticlesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5C39462D00FEB500F8F001 /* Most Popular ArticlesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Most Popular ArticlesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB0BB5B2D02DD3D00E3A6C9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		DB5C39212D00FEB300F8F001 = {
 			isa = PBXGroup;
 			children = (
+				DBB0BB5B2D02DD3D00E3A6C9 /* README.md */,
 				DB5C392C2D00FEB300F8F001 /* Most Popular Articles */,
 				DB5C393F2D00FEB500F8F001 /* Most Popular ArticlesTests */,
 				DB5C39492D00FEB500F8F001 /* Most Popular ArticlesUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB0BB5C2D02DD3D00E3A6C9 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
